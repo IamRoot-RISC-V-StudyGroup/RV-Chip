@@ -14,11 +14,11 @@ organization := "edu.berkeley.cs"
 
 name := "firrtl"
 
-version := "1.2-SNAPSHOT"
+version := "1.1.3"
 
-scalaVersion := "2.12.4"
+scalaVersion := "2.12.6"
 
-crossScalaVersions := Seq("2.12.4", "2.11.12")
+crossScalaVersions := Seq("2.11.12", "2.12.6")
 
 def scalacOptionsVersion(scalaVersion: String): Seq[String] = {
   Seq() ++ {
